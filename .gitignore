@@ -179,3 +179,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+.DS_Store
+
+data/raw/*
+!data/README.md
+
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+*.zip
